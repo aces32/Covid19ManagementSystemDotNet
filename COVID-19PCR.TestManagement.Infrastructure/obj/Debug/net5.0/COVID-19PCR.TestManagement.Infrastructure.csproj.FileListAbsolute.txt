@@ -1,0 +1,12 @@
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\bin\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.deps.json
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\bin\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\bin\Debug\net5.0\ref\COVID-19PCR.TestManagement.Infrastructure.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\bin\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.pdb
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\ref\COVID-19PCR.TestManagement.Infrastructure.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Infrastructure\obj\Debug\net5.0\COVID-19PCR.TestManagement.Infrastructure.pdb
