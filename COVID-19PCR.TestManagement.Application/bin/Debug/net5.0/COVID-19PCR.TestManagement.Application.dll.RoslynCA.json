@@ -18,55 +18,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 18,
-                  "endLine": 5,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 12,
-                  "endLine": 5,
-                  "endColumn": 17
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 12,
-                  "endLine": 5,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "0": "Add 'System.SerializableAttribute' attribute on 'NotFoundException' because it implements 'ISerializable'.",
-              "1": "Add a 'protected' constructor 'NotFoundException(SerializationInfo, StreamingContext)'."
-            }
-          }
-        },
-        {
-          "ruleId": "S3925",
-          "level": "warning",
-          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/BadRequestException.cs",
                 "region": {
                   "startLine": 5,
@@ -106,6 +57,55 @@
             "customProperties": {
               "0": "Add 'System.SerializableAttribute' attribute on 'BadRequestException' because it implements 'ISerializable'.",
               "1": "Add a 'protected' constructor 'BadRequestException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 12,
+                  "endLine": 5,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/Ayo/Documents/ThynkSoft/COVID-19PCR.TestManagement/COVID-19PCR.TestManagement.Application/Exceptions/NotFoundException.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 12,
+                  "endLine": 5,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add 'System.SerializableAttribute' attribute on 'NotFoundException' because it implements 'ISerializable'.",
+              "1": "Add a 'protected' constructor 'NotFoundException(SerializationInfo, StreamingContext)'."
             }
           }
         },

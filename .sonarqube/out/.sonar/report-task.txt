@@ -1,6 +1,6 @@
-projectKey=CovidPcrPortalreview
+projectKey=CovidPcrPortal
 serverUrl=http://localhost:9000
 serverVersion=9.0.1.46107
-dashboardUrl=http://localhost:9000/dashboard?id=CovidPcrPortalreview
-ceTaskId=AXyKUtLxKfARiR_SICzf
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXyKUtLxKfARiR_SICzf
+dashboardUrl=http://localhost:9000/dashboard?id=CovidPcrPortal
+ceTaskId=AXyKqAiQQjuF-QrHxaBD
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXyKqAiQQjuF-QrHxaBD
