@@ -13,9 +13,9 @@ C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestMana
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.AssemblyInfoInputs.cache
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.AssemblyInfo.cs
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.csproj.CoreCompileInputs.cache
-C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.csproj.CopyComplete
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.dll
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\ref\COVID-19PCR.TestManagement.Persistence.dll
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.pdb
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.genruntimeconfig.cache
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\bin\Debug\net5.0\COVID-19PCR.TestManagement.Application.xml
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Persistence\obj\Debug\net5.0\COVID-19PCR.TestManagement.Persistence.csproj.CopyComplete

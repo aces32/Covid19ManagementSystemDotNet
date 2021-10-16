@@ -1,0 +1,10 @@
+ï
+ãC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Base\CustomWebApplicationFactory.csutf-8Ç
+yC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Base\Utilities.csutf-8ù
+ìC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Controllers\AdministratorControllerTests.csutf-8ö
+êC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Controllers\IndividualControllerTests.csutf-8û
+îC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Controllers\IndividualLabsControllerTests.csutf-8ò
+éC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\Controllers\LocationControllerTests.csutf-8{
+pC:\Users\Ayo\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8≥
+ßC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8¿
+¥C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.IntegrationTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.IntegrationTests.AssemblyInfo.csutf-8

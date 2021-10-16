@@ -1,0 +1,16 @@
+ù
+ìC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Administrators\Command\AllocateBookingSpaceTest.csutf-8£
+ôC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Administrators\Queries\GetAvailableBookingDetailsTest.csutf-8õ
+ëC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Administrators\Queries\GetBookingsReportsTest.csutf-8ó
+çC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\IndividualLabs\Command\SetTestOutcomeTest.csutf-8ó
+çC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Individuals\Command\BookCovidTestUnitTest.csutf-8ö
+êC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Individuals\Command\CancelBookedTestUnitTest.csutf-8©
+üC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Individuals\Queries\GetIndividualInfoByMobileNoAndEmailTest.csutf-8ú
+íC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Locations\Queries\GetAllAvailableLocationsTest.csutf-8ò
+éC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Mocks\AdminBookingAllocationRepositoryMock.csutf-8è
+ÖC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Mocks\IndividualLabRepositoryMock.csutf-8å
+ÇC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Mocks\IndividualRepositoryMock.csutf-8ä
+ÄC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\Mocks\LocationRepositoryMock.csutf-8{
+pC:\Users\Ayo\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8¨
+†C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8≤
+¶C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.AssemblyInfo.csutf-8

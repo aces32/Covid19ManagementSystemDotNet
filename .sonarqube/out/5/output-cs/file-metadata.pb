@@ -1,0 +1,12 @@
+ã
+ÅC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Controllers\AdministratorController.csutf-8á
+~C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Controllers\IndividualController.csutf-8å
+ÇC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Controllers\IndividualLabsController.csutf-8Ö
+|C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Controllers\LocationController.csutf-8ç
+ÉC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\MiddleWare\ExceptionHandlerMiddleware.csutf-8Ü
+}C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\MiddleWare\MiddlewareExtensions.csutf-8n
+eC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Program.csutf-8n
+eC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\Startup.csutf-8¶
+öC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8¶
+öC:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\obj\Debug\net5.0\COVID-19PCR.TestManagement.API.AssemblyInfo.csutf-8π
+≠C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.API\obj\Debug\net5.0\COVID-19PCR.TestManagement.API.MvcApplicationPartsAssemblyInfo.csutf-8

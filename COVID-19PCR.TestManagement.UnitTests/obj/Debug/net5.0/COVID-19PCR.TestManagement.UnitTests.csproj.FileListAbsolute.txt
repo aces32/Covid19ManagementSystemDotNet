@@ -235,7 +235,7 @@ C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestMana
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.AssemblyInfoInputs.cache
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.AssemblyInfo.cs
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.csproj.CopyComplete
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.dll
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\ref\COVID-19PCR.TestManagement.UnitTests.dll
 C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.genruntimeconfig.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.UnitTests\obj\Debug\net5.0\COVID-19PCR.TestManagement.UnitTests.csproj.CopyComplete
