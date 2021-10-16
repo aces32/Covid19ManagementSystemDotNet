@@ -8,6 +8,7 @@ namespace COVID_19PCR.TestManagement.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public class IndividualLabsController : ControllerBase

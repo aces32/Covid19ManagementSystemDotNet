@@ -58,7 +58,7 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Base
             var individual2 = new Individual
             {
                 IndividualId = 2,
-                IndividualBookingStatus = true,
+                IndividualBookingStatus = false,
                 IndividualEmailAddress = "Test2@test.com",
                 IndividualFirstName = "Test2FirstName",
                 IndividualLastName = "Test2LastName",
@@ -68,7 +68,7 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Base
             var individual3 = new Individual
             {
                 IndividualId = 3,
-                IndividualBookingStatus = false,
+                IndividualBookingStatus = true,
                 IndividualEmailAddress = "Test3@test.com",
                 IndividualFirstName = "Test3FirstName",
                 IndividualLastName = "Test3LastName",

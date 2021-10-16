@@ -32,12 +32,12 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Ca
 
             RuleFor(e => e)
             .MustAsync(DoesIndividualExist)
-            .WithMessage("No booked Covid tests based on the specified email address and phone number.");
+            .WithMessage("Canceled or no booked Covid tests based on the specified email address and phone number.");
         }
 
         private async Task<bool> DoesIndividualExist(CancelBookedTestCommand e, CancellationToken token)
         {
-            return !(await _individualRepository.DoesIndividualExist(e.IndividualEmailAddress, e.IndividualMobileNumber));
+            return await _individualRepository.DoesIndividualExist(e.IndividualEmailAddress, e.IndividualMobileNumber);
         }
     }
 }

@@ -36,7 +36,7 @@ namespace COVID_19PCR.TestManagement.Persistence.Repository
                                         .Include(l => l.Location)
                                         .Include(i => i.Individuals).ThenInclude(x => x.IndividualLab)
                                         .Where(s => (s.BookingDates >= StartDate && s.BookingDates <= EndDate))
-                                        .Skip((page - 1) * size).Take(size).AsNoTracking().ToListAsync();
+                                        .Skip((page - 1) * size).Take(size).AsNoTracking().OrderBy(x => x.BookingDates).ToListAsync();
         }
     }
 }

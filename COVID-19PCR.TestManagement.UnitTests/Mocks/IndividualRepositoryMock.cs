@@ -99,7 +99,7 @@ namespace COVID_19PCR.TestManagement.UnitTests.Mocks
                 .ReturnsAsync((string emailAddress, string mobilenumber) =>
                 {
                     var IndividualExist = individualLists.Any(x => x.IndividualEmailAddress == emailAddress.Trim() &&
-                    x.IndividualMobileNumber == mobilenumber && x.IndividualBookingStatus == true);
+                    x.IndividualMobileNumber == mobilenumber.Trim() && x.IndividualBookingStatus == true);
                     return IndividualExist;
                 });
             mockindividualRepository.Setup(repo => repo.GetIndividualBookingByEmailAndMobileNo(It.IsAny<string>(), It.IsAny<string>()))
