@@ -39,7 +39,7 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Command
             .WithMessage("Location ID does not exist.");
 
             RuleFor(e => e)
-            .MustAsync(DoesLocationExist)
+            .MustAsync(DoesAllocatedBookingExist)
             .WithMessage("Booking has been allocated for the specifed location at the specified date.");
 
         }

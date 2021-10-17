@@ -25,7 +25,7 @@ namespace COVID_19PCR.TestManagement.Persistence.Repository
         public Task<Individual> GetIndividualBookingByEmailAndMobileNo(string emailAddress, string mobileNumber)
         {
             var individualBooking = _dbContext.Individuals.Include(t => t.IndividualLab).Where(x => x.IndividualEmailAddress == emailAddress &&
-                                            x.IndividualMobileNumber == mobileNumber).FirstOrDefault();
+                                            x.IndividualMobileNumber == mobileNumber && x.IndividualBookingStatus == true).FirstOrDefault();
             return Task.FromResult(individualBooking);
         }
 
