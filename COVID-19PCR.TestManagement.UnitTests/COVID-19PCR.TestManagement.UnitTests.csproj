@@ -25,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\COVID-19PCR.TestManagement.Application\COVID-19PCR.TestManagement.Application.csproj" />
     <ProjectReference Include="..\COVID-19PCR.TestManagement.Domain\COVID-19PCR.TestManagement.Domain.csproj" />
+    <ProjectReference Include="..\COVID-19PCR.TestManagement.Infrastructure\COVID-19PCR.TestManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

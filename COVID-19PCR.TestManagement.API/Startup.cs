@@ -1,5 +1,6 @@
 using COVID_19PCR.TestManagement.API.MiddleWare;
 using COVID_19PCR.TestManagement.Application;
+using COVID_19PCR.TestManagement.Infrastructure;
 using COVID_19PCR.TestManagement.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,7 +33,9 @@ namespace COVID_19PCR.TestManagement.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationServices();
+            services.AddInfrastructureServices();
             services.AddPersistenceServices(Configuration);
+            services.AddMemoryCache();
             services.AddControllers();
             services.AddCors(options =>
             {

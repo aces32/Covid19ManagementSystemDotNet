@@ -1,15 +1,13 @@
 ﻿using AutoMapper;
+using COVID_19PCR.TestManagement.Application.Contracts.Cache;
 using COVID_19PCR.TestManagement.Application.Contracts.Persistence;
 using COVID_19PCR.TestManagement.Application.Features.Individuals.Queries.GetIndividualInfoByMobileNoAndEmail;
 using COVID_19PCR.TestManagement.Application.Profiles;
+using COVID_19PCR.TestManagement.Domain.Entites;
 using COVID_19PCR.TestManagement.UnitTests.Mocks;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Shouldly;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
@@ -20,9 +18,12 @@ namespace COVID_19PCR.TestManagement.UnitTests.Individuals.Queries
     {
         private readonly IMapper _mapper;
         private readonly Mock<IIndividualRepository> _mockIndividualRepository;
+        private readonly Mock<ICacheApplicationService<Individual>> _mockCacheApplicationService;
+
         public GetIndividualInfoByMobileNoAndEmailTest()
         {
             _mockIndividualRepository = IndividualRepositoryMock.GetIndividualRepository();
+            _mockCacheApplicationService = CacheApplicationServiceMock<Individual>.GetCacheApplicationService();
             var configurationProvider = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile<MappingProfiles>();
@@ -35,7 +36,7 @@ namespace COVID_19PCR.TestManagement.UnitTests.Individuals.Queries
         public async Task GetIndividualInfoByMobileNoAndEmail()
         {
             var handler = new GetIndividualInfoByMobileNoAndEmailQueryHandler(_mapper, new NullLogger<GetIndividualInfoByMobileNoAndEmailQueryHandler>(),
-                            _mockIndividualRepository.Object);
+                            _mockIndividualRepository.Object, _mockCacheApplicationService.Object);
 
             var getIndividualInfoByMobileNoAndEmailQuery = new GetIndividualInfoByMobileNoAndEmailQuery()
             {

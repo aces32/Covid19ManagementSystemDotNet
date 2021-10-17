@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using COVID_19PCR.TestManagement.Application.Contracts.Cache;
 using COVID_19PCR.TestManagement.Application.Contracts.Persistence;
+using COVID_19PCR.TestManagement.Domain.Entites;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,18 +18,28 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Queries
         private readonly IAdminBookingAllocationRepository _adminBookingAllocationRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<GetAvailableBookingDetailsQueryHandler> _logger;
+        private readonly ICacheApplicationService<AdminBookingAllocation> _cacheApplicationService;
+
         public GetAvailableBookingDetailsQueryHandler(IAdminBookingAllocationRepository adminBookingAllocationRepository,
-            IMapper mapper, ILogger<GetAvailableBookingDetailsQueryHandler> logger)
+            IMapper mapper, ILogger<GetAvailableBookingDetailsQueryHandler> logger, ICacheApplicationService<AdminBookingAllocation> cacheApplicationService)
         {
             _adminBookingAllocationRepository = adminBookingAllocationRepository;
             _mapper = mapper;
             _logger = logger;
+            _cacheApplicationService = cacheApplicationService;
         }
         public async Task<List<AvailableBookingListVm>> Handle(GetAvailableBookingDetailsQuery request, CancellationToken cancellationToken)
         {
             try
             {
+                var cachedAdminBooking = _cacheApplicationService.GetCachedItemsList("AdminBookingKey");
+                if (cachedAdminBooking?.Count() > 0)
+                {
+                    return _mapper.Map<List<AvailableBookingListVm>>(cachedAdminBooking);
+                }
+
                 var allBookings = await _adminBookingAllocationRepository.GetAllRecentAvailableBookings();
+                _cacheApplicationService.SetListCachedItems(cachedAdminBooking, "locationKey");
                 return _mapper.Map<List<AvailableBookingListVm>>(allBookings);
             }
             catch (Exception ex)
