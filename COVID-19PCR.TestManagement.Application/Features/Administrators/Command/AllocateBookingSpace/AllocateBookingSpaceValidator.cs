@@ -51,7 +51,7 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Command
 
         private async Task<bool> DoesAllocatedBookingExist(AllocateBookingSpaceCommand e, CancellationToken token)
         {
-            return await _adminBookingAllocationRepository.DoesBookingExist(e.LocationID, e.BookingDates);
+            return !(await _adminBookingAllocationRepository.DoesBookingExist(e.LocationID, e.BookingDates));
         }
     }
 }
