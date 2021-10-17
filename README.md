@@ -39,10 +39,6 @@ Code Structure
 # COVID-19PCR.TestManagement.Domain
 - Ef core
 
-# COVID-19PCR.TestManagement.Identity
-- Auth0
-- Jwt
-
 # COVID-19PCR.TestManagement.Infrastructure
 - SendGrid
 - Serilog for logging
