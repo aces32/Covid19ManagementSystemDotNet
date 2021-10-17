@@ -40,7 +40,7 @@ namespace COVID_19PCR.TestManagement.UnitTests.Administrators.Command
                                _mockLocationRepository.Object);
             var allocateBookingSpaceCommand = new AllocateBookingSpaceCommand
             {
-                BookingDates = DateTimeOffset.UtcNow.AddDays(2),
+                BookingDates = DateTimeOffset.UtcNow.AddDays(5),
                 Capacity = 30,
                 LocationID = 1
             };

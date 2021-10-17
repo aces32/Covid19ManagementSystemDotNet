@@ -31,7 +31,7 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Controllers
 
             var payload = new AllocateBookingSpaceCommand
             {
-                BookingDates = DateTimeOffset.UtcNow.AddDays(2),
+                BookingDates = DateTimeOffset.UtcNow.AddDays(5),
                 Capacity = 30,
                 LocationID = 1
             };
