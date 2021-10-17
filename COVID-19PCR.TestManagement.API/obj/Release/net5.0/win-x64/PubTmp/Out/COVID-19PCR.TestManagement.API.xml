@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>COVID-19PCR.TestManagement.API</name>
+    </assembly>
+    <members>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.AdministratorController.Create(COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommand)">
+            <summary>
+            An endpoint to allocate spaces for tests at specific locations and days.
+            </summary>
+            <param name="allocateBookingSpaceCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.AdministratorController.Get">
+            <summary>
+            An endpoint that shows all Available booking details from query date
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.AdministratorController.Get(System.DateTimeOffset,System.DateTimeOffset,System.Int32,System.Int32)">
+            <summary>
+            An endpoint that spool all booking reports based on specified dates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.IndividualController.Create(COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand)">
+            <summary>
+            An endpoint used by an individual to book PCR or Rapid Test at a specific day and location, based on availability.
+            </summary>
+            <param name="bookCovidTestCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.IndividualController.Update(COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommand)">
+            <summary>
+            An endpoint for an individual to cancel a booked test,
+            </summary>
+            <param name="cancelBookedTestCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.IndividualController.Get(System.String,System.String)">
+            <summary>
+            An enpoint to return individual booked tests based on emailaddress and mobile number
+            </summary>
+            <param name="emailAddress"></param>
+            <param name="mobileNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.IndividualLabsController.Update(COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommand)">
+            <summary>
+            An endpoint where a lab admin can set the outcome of tests.
+            </summary>
+            <param name="setTestOutcomeCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:COVID_19PCR.TestManagement.API.Controllers.LocationController.GetAllAvailableLocations">
+            <summary>
+            An endpoint that returns all locations available for allocating booking space
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

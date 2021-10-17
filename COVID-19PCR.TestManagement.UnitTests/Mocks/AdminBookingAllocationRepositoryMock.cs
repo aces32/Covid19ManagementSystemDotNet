@@ -114,6 +114,14 @@ namespace COVID_19PCR.TestManagement.UnitTests.Mocks
                                             x.BookingDates.Date == bookingDate.Date).FirstOrDefault();
                 });
 
+            mockAdminBookingRepository.Setup(repo => repo.DoesBookingExist(It.IsAny<int>(), It.IsAny<DateTimeOffset>()))
+                .ReturnsAsync((int locationId, DateTimeOffset bookingDate) =>
+                {
+                    var bookingExist = adminBookingAllocationList.Any(x => x.LocationID == locationId &&
+                    x.BookingDates.Date == bookingDate.Date);
+                    return bookingExist;
+                });
+
 
             mockAdminBookingRepository.Setup(repo => repo.GetAdminBookingAllocationHistorybyBookingDates(It.IsAny<DateTimeOffset>(), It.IsAny<DateTimeOffset>(),
                                             It.IsAny<int>(), It.IsAny<int>()))

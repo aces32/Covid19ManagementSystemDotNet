@@ -12,10 +12,12 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Command
     public class AllocateBookingSpaceValidator : AbstractValidator<AllocateBookingSpaceCommand>
     {
         public readonly ILocationRepository _locationRepository;
+        private readonly IAdminBookingAllocationRepository _adminBookingAllocationRepository;
 
-        public AllocateBookingSpaceValidator(ILocationRepository locationRepository)
+        public AllocateBookingSpaceValidator(ILocationRepository locationRepository, IAdminBookingAllocationRepository adminBookingAllocationRepository)
         {
             _locationRepository = locationRepository;
+            _adminBookingAllocationRepository = adminBookingAllocationRepository;
 
             RuleFor(p => p.Capacity)
             .NotEmpty().WithMessage("{PropertyName} is required.")
@@ -36,11 +38,20 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Command
             .MustAsync(DoesLocationExist)
             .WithMessage("Location ID does not exist.");
 
+            RuleFor(e => e)
+            .MustAsync(DoesLocationExist)
+            .WithMessage("Booking has been allocated for the specifed location at the specified date.");
+
         }
 
         private async Task<bool> DoesLocationExist(AllocateBookingSpaceCommand e, CancellationToken token)
         {
             return await _locationRepository.DoesLocationExist(e.LocationID);
+        }
+
+        private async Task<bool> DoesAllocatedBookingExist(AllocateBookingSpaceCommand e, CancellationToken token)
+        {
+            return await _adminBookingAllocationRepository.DoesBookingExist(e.LocationID, e.BookingDates);
         }
     }
 }

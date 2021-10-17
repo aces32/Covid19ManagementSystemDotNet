@@ -30,7 +30,7 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Command
         {
             try
             {
-                var validator = new AllocateBookingSpaceValidator(_locationRepository);
+                var validator = new AllocateBookingSpaceValidator(_locationRepository, _adminBookingAllocationRepository);
                 var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
                 if (validationResult.Errors.Count > 0)

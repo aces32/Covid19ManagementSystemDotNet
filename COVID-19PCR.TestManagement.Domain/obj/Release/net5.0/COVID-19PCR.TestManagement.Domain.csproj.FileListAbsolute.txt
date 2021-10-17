@@ -1,0 +1,15 @@
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\COVID-19PCR.TestManagement.Domain.deps.json
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\COVID-19PCR.TestManagement.Domain.runtimeconfig.json
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\COVID-19PCR.TestManagement.Domain.runtimeconfig.dev.json
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\COVID-19PCR.TestManagement.Domain.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\ref\COVID-19PCR.TestManagement.Domain.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\bin\Release\net5.0\COVID-19PCR.TestManagement.Domain.pdb
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.AssemblyInfo.cs
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\ref\COVID-19PCR.TestManagement.Domain.dll
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.pdb
+C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Domain\obj\Release\net5.0\COVID-19PCR.TestManagement.Domain.genruntimeconfig.cache

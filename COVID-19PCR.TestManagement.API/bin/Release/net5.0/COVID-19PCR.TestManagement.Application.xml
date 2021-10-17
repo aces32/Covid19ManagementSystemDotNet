@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>COVID-19PCR.TestManagement.Application</name>
+    </assembly>
+    <members>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommand.Capacity">
+            <summary>
+            Total space capacity for a specified Location
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommand.BookingDates">
+            <summary>
+            Available date of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommand.LocationID">
+            <summary>
+            Location ID based on the location name selected by the administrator
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommandResponse.Capacity">
+            <summary>
+            Total space capacity for a specified Location
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Command.AllocateBookingSpace.AllocateBookingSpaceCommandResponse.BookingDates">
+            <summary>
+            Available date of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetAvailableBookingDetails.AvailableBookingListVm.Capacity">
+            <summary>
+            Total space capacity for a specified Location
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetAvailableBookingDetails.AvailableBookingListVm.SpaceAllocated">
+            <summary>
+            Total space booked by individuals
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetAvailableBookingDetails.AvailableBookingListVm.BookingDates">
+            <summary>
+            Available date of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetAvailableBookingDetails.AvailableBookingListVm.Location">
+            <summary>
+            Location of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.BookingsReportsListsVm.Capacity">
+            <summary>
+            Capacity allocated for covid tests at a specified location
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.BookingsReportsListsVm.SpaceAllocated">
+            <summary>
+            space allocated to individuals for covid tests at the specified location
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.BookingsReportsListsVm.BookingDates">
+            <summary>
+            date allocated for covid test
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.BookingsReportsListsVm.Location">
+            <summary>
+            location information for the covid tests
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.BookingsReportsListsVm.Individuals">
+            <summary>
+            individuals that booked covid tests
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.GetBookingsReportsQuery.StartDate">
+            <summary>
+            start date range query
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.GetBookingsReportsQuery.EndDate">
+            <summary>
+            End date range query
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.GetBookingsReportsQuery.Page">
+            <summary>
+            page number requested
+            </summary>
+            
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Administrators.Queries.GetBookingsReports.GetBookingsReportsQuery.Size">
+            <summary>
+            size of the data to be returned
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommand.IndividualLabId">
+            <summary>
+            Individual booking Labs Id
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommand.TestOutCome">
+            <summary>
+            Outcome of the covid test taken set by the lab administrator
+            either negative or positive 
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommand.TestCompleted">
+            <summary>
+            Set that tests has been completed
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommandResponse.TestOutCome">
+            <summary>
+            Test Outcome if it is positive or negative
+            Pass Negative or Positive
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.IndividualLabs.Command.SetTestOutcome.SetTestOutcomeCommandResponse.TestCompleted">
+            <summary>
+            Indicates that tests has been completed
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.IndividualFirstName">
+            <summary>
+            Individual booking first name
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.IndividualLastName">
+            <summary>
+            Individual booking Last name
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.IndividualEmailAddress">
+            <summary>
+            Individual booking Email Address
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.IndividualMobileNumber">
+            <summary>
+            Individual booking Mobile Number
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.BookingDate">
+            <summary>
+            Date of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.LocationID">
+            <summary>
+            Id of the location been booked
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommand.IndividualLab">
+            <summary>
+            Individual lab details
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommandResponse.IndividualFirstName">
+            <summary>
+            Individual booking first name
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommandResponse.IndividualLastName">
+            <summary>
+            Individual booking Last name
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommandResponse.IndividualEmailAddress">
+            <summary>
+            Individual booking Email Address
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommandResponse.IndividualMobileNumber">
+            <summary>
+            Individual booking Mobile Number
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.BookCovidTestCommandResponse.BookingDate">
+            <summary>
+            Date of booking
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.BookCovidTest.IndividualLabsRequest.TestType">
+            <summary>
+            Type of test individual wants to take
+            Either pass PCRTest or RapidTest
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommand.IndividualEmailAddress">
+            <summary>
+            Individual booking Email Address
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommand.IndividualMobileNumber">
+            <summary>
+            Individual booking Mobile Number
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommand.IndividualBookingStatus">
+            <summary>
+            Use to cancel the booking status
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommandResponse.IndividualEmailAddress">
+            <summary>
+            Individual booking Email Address
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Individuals.Command.CancelBookedTest.CancelBookedTestCommandResponse.IndividualMobileNumber">
+            <summary>
+            Individual booking Mobile Number
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Locations.Queries.GetAllAvailableLocations.AvailableLocationListVm.LocationID">
+            <summary>
+            Location Id to be used by the administrator
+            </summary>
+        </member>
+        <member name="P:COVID_19PCR.TestManagement.Application.Features.Locations.Queries.GetAllAvailableLocations.AvailableLocationListVm.LocationName">
+            <summary>
+            Available locations for Covid Tests
+            </summary>
+        </member>
+    </members>
+</doc>

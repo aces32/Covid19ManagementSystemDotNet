@@ -38,5 +38,11 @@ namespace COVID_19PCR.TestManagement.Persistence.Repository
                                         .Where(s => (s.BookingDates >= StartDate && s.BookingDates <= EndDate))
                                         .Skip((page - 1) * size).Take(size).AsNoTracking().OrderBy(x => x.BookingDates).ToListAsync();
         }
+
+        public Task<bool> DoesBookingExist(int LocationId, DateTimeOffset bookingdate)
+        {
+            var matches = _dbContext.AdminBookingAllocations.Any(e => e.LocationID == LocationId && e.BookingDates.Date == bookingdate.Date);
+            return Task.FromResult(matches);
+        }
     }
 }
