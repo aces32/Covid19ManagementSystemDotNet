@@ -64,7 +64,9 @@ namespace COVID_19PCR.TestManagement.UnitTests.Mocks
                     IndividualEmailAddress = "Test@test.com",
                     IndividualFirstName = "TestFirstName",
                     IndividualLastName = "TestLastName",
-                    IndividualMobileNumber = "08000000000"
+                    IndividualMobileNumber = "08000000000",
+                    AdminBookingAllocation = AdminBookingAllocationId1
+
                 },
                 new Individual
                 {
@@ -73,7 +75,8 @@ namespace COVID_19PCR.TestManagement.UnitTests.Mocks
                     IndividualEmailAddress = "Test2@test.com",
                     IndividualFirstName = "Test2FirstName",
                     IndividualLastName = "Test2LastName",
-                    IndividualMobileNumber = "08000000002"
+                    IndividualMobileNumber = "08000000002",
+                    AdminBookingAllocation = AdminBookingAllocationId2
                 },
                 new Individual
                 {
@@ -82,7 +85,8 @@ namespace COVID_19PCR.TestManagement.UnitTests.Mocks
                     IndividualEmailAddress = "Test3@test.com",
                     IndividualFirstName = "Test3FirstName",
                     IndividualLastName = "Test3LastName",
-                    IndividualMobileNumber = "080000000003"
+                    IndividualMobileNumber = "080000000003",
+                    AdminBookingAllocation = AdminBookingAllocationId3
                 }
             };
             #endregion

@@ -38,6 +38,9 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Ca
 
                 var individualRecord = await _individualRepository.GetIndividualBookingByEmailAndMobileNo(request.IndividualEmailAddress,
                     request.IndividualMobileNumber);
+                if (!request.IndividualBookingStatus)
+                    individualRecord.AdminBookingAllocation.SpaceAllocated -= 1;
+
                 _mapper.Map(request, individualRecord, typeof(CancelBookedTestCommand), typeof(Individual));
                 await _individualRepository.UpdateAsync(individualRecord);
 

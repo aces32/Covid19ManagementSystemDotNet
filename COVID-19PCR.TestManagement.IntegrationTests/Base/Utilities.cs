@@ -52,7 +52,8 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Base
                 IndividualEmailAddress = "Test@test.com",
                 IndividualFirstName = "TestFirstName",
                 IndividualLastName = "TestLastName",
-                IndividualMobileNumber = "08000000000"
+                IndividualMobileNumber = "08000000000",
+                AdminBookingAllocation = adminAllocationId1
             };
 
             var individual2 = new Individual
@@ -62,7 +63,8 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Base
                 IndividualEmailAddress = "Test2@test.com",
                 IndividualFirstName = "Test2FirstName",
                 IndividualLastName = "Test2LastName",
-                IndividualMobileNumber = "08000000002"
+                IndividualMobileNumber = "08000000002",
+                AdminBookingAllocation = adminAllocationId1
             };
 
             var individual3 = new Individual
@@ -72,7 +74,8 @@ namespace COVID_19PCR.TestManagement.IntegrationTests.Base
                 IndividualEmailAddress = "Test3@test.com",
                 IndividualFirstName = "Test3FirstName",
                 IndividualLastName = "Test3LastName",
-                IndividualMobileNumber = "080000000003"
+                IndividualMobileNumber = "080000000003",
+                AdminBookingAllocation = adminAllocationId1
             };
 
 
