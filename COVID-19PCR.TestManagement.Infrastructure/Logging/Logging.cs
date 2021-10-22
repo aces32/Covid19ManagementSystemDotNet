@@ -36,7 +36,7 @@ namespace COVID_19PCR.TestManagement.Infrastructure.Logging
 
                 if (hostBuilderContext.HostingEnvironment.IsDevelopment())
                 {
-                    loggerConfiguration.MinimumLevel.Override("FakeBank.Service", LogEventLevel.Debug);
+                    loggerConfiguration.MinimumLevel.Override("COVIDPCR.Service", LogEventLevel.Debug);
                 }
 
                 var elasticUri = hostBuilderContext.Configuration.GetValue<string>("Serilog:ElasticUri");
@@ -49,7 +49,7 @@ namespace COVID_19PCR.TestManagement.Infrastructure.Logging
                     {
                         AutoRegisterTemplate = true,
                         AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv7,
-                        IndexFormat = "FakeBank-logs-{0:yyyy.MM.dd}",
+                        IndexFormat = "COVIDPCR-logs-{0:yyyy.MM.dd}",
                         MinimumLogEventLevel = LogEventLevel.Debug
                     }
                     );

@@ -13,12 +13,16 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Bo
     public class BookCovidTestValidator : AbstractValidator<BookCovidTestCommand>
     {
         private readonly ILocationRepository _locationRepository;
-        private readonly IIndividualRepository _individualRepository;
+        private readonly IIndividualRepository _individualRepository; 
+        private readonly IAdminBookingAllocationRepository _adminBookingAllocationRepository;
 
-        public BookCovidTestValidator(ILocationRepository locationRepository, IIndividualRepository individualRepository)
+        public BookCovidTestValidator(ILocationRepository locationRepository, IIndividualRepository individualRepository,
+            IAdminBookingAllocationRepository adminBookingAllocationRepository)
         {
             _locationRepository = locationRepository;
             _individualRepository = individualRepository;
+            _adminBookingAllocationRepository = adminBookingAllocationRepository;
+
             RuleFor(p => p.LocationID)
             .NotEmpty().WithMessage("{PropertyName} is required.")
             .NotNull()
@@ -54,6 +58,10 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Bo
             .WithMessage("Location ID does not exist.");
 
             RuleFor(e => e)
+            .MustAsync(DoesAllocatedBookingExist)
+            .WithMessage("Location ID does not exist.");
+
+            RuleFor(e => e)
             .MustAsync(DoesIndividualExist)
             .WithMessage("Individual already booked Covid Test.");
 
@@ -78,6 +86,11 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Bo
             var isValid = TestTypeData.TestType.Contains(e.IndividualLab.TestType.ToLower());
             return Task.FromResult(isValid);
 
+        }
+
+        private async Task<bool> DoesAllocatedBookingExist(BookCovidTestCommand e, CancellationToken token)
+        {
+            return await _adminBookingAllocationRepository.DoesBookingExist(e.LocationID, e.BookingDate);
         }
     }
 }

@@ -34,7 +34,7 @@ namespace COVID_19PCR.TestManagement.Application.Features.Individuals.Command.Bo
         {
             try
             {
-                var validator = new BookCovidTestValidator(_locationRepository, _individualRepository);
+                var validator = new BookCovidTestValidator(_locationRepository, _individualRepository, _adminBookingAllocationRepository);
                 var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
                 if (validationResult.Errors.Count > 0)
