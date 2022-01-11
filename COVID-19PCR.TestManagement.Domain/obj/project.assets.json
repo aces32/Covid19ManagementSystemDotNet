@@ -5748,22 +5748,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Ayo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
+      "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
       "projectName": "COVID-19PCR.TestManagement.Domain",
-      "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
+      "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\obj\\",
+      "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5771,6 +5774,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -5817,7 +5821,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

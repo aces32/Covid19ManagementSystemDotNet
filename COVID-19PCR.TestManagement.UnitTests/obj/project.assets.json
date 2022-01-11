@@ -1041,6 +1041,28 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "NewRelic.Agent.Api/8.20.262": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        }
+      },
+      "NewRelic.LogEnrichers.Serilog/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NewRelic.Agent.Api": "8.20.262",
+          "Serilog": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -1448,6 +1470,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {}
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {}
         }
       },
       "Serilog.Sinks.Console/3.1.1": {
@@ -3650,11 +3684,13 @@
         "dependencies": {
           "COVID-19PCR.TestManagement.Application": "1.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "NewRelic.LogEnrichers.Serilog": "1.0.1",
           "Serilog": "2.11.0-dev-01371",
           "Serilog.AspNetCore": "4.1.1-dev-00229",
           "Serilog.Exceptions": "7.1.0",
           "Serilog.Extensions.Logging": "3.0.2-dev-10289",
           "Serilog.Settings.Configuration": "3.3.0",
+          "Serilog.Sinks.Async": "1.5.0",
           "Serilog.Sinks.Elasticsearch": "8.5.0-alpha0003",
           "Serilog.Sinks.File": "5.0.1-dev-00947"
         },
@@ -5146,6 +5182,39 @@
         "netstandard.library.nuspec"
       ]
     },
+    "NewRelic.Agent.Api/8.20.262": {
+      "sha512": "v3YNxGTOlTvqIRF7aK/Vyukk41A/0l+rzgeOAC+N+Xtbd+uAViBX10h7dKS/GHEm35d4KdlGtpxjKBZ1iLF/GA==",
+      "type": "package",
+      "path": "newrelic.agent.api/8.20.262",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD_PARTY_NOTICES.txt",
+        "lib/net45/NewRelic.Api.Agent.dll",
+        "lib/netstandard2.0/NewRelic.Api.Agent.dll",
+        "newrelic.agent.api.8.20.262.nupkg.sha512",
+        "newrelic.agent.api.nuspec",
+        "tools/NewRelicHelper.psm1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NewRelic.LogEnrichers.Serilog/1.0.1": {
+      "sha512": "UHHuBDASjxTkzzSD0hqeq5Jfpl4PaZA7BDGxBwML4KPtfJPCK0W9RxgC5Dk7dG0HHayU6bjVc3q7jKHRk43Ezw==",
+      "type": "package",
+      "path": "newrelic.logenrichers.serilog/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net45/NewRelic.LogEnrichers.Serilog.dll",
+        "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll",
+        "newrelic.logenrichers.serilog.1.0.1.nupkg.sha512",
+        "newrelic.logenrichers.serilog.nuspec"
+      ]
+    },
     "Newtonsoft.Json/10.0.1": {
       "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "type": "package",
@@ -5698,6 +5767,26 @@
         "lib/netstandard2.0/Serilog.Settings.Configuration.xml",
         "serilog.settings.configuration.3.3.0.nupkg.sha512",
         "serilog.settings.configuration.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "sha512": "csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "type": "package",
+      "path": "serilog.sinks.async/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.Async.dll",
+        "lib/net45/Serilog.Sinks.Async.xml",
+        "lib/net461/Serilog.Sinks.Async.dll",
+        "lib/net461/Serilog.Sinks.Async.xml",
+        "lib/netstandard1.1/Serilog.Sinks.Async.dll",
+        "lib/netstandard1.1/Serilog.Sinks.Async.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Async.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Async.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.async.1.5.0.nupkg.sha512",
+        "serilog.sinks.async.nuspec"
       ]
     },
     "Serilog.Sinks.Console/3.1.1": {
@@ -11475,22 +11564,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Ayo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
+      "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
       "projectName": "COVID-19PCR.TestManagement.UnitTests",
-      "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
+      "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\obj\\",
+      "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11498,6 +11590,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -11506,14 +11599,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
+            "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
+              "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
             },
-            "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
+            "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
+              "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
             },
-            "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj"
+            "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
+              "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj"
             }
           }
         }
@@ -11572,7 +11665,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

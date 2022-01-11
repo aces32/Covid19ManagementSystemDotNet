@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lyXRe1HKcpY5/cEuOQwRWtB2V9WUsk+1uuhHTWf2iVIyPmKB+G+BtO/1zVVnPRmqOTVEmwYuYjofB/4Ym5dYkA==",
+  "dgSpecHash": "7ylwHV8jnmkd8v2j4jI4zZ8/5H97PQ1I28V3Dr0f49owY/XnehRpjnB/3INNu23PwSR7jhusA+pw7gO8iISJcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
+  "projectFilePath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -165,9 +165,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.11\\microsoft.netcore.app.runtime.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.11\\microsoft.aspnetcore.app.runtime.win-x64.5.0.11.nupkg.sha512"
+    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.12\\microsoft.netcore.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.12\\microsoft.aspnetcore.app.runtime.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

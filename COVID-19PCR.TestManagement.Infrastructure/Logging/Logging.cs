@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using NewRelic.LogEnrichers.Serilog;
 using Serilog;
 using Serilog.Events;
 using Serilog.Exceptions;
@@ -28,10 +29,15 @@ namespace COVID_19PCR.TestManagement.Infrastructure.Logging
                 .Enrich.WithProperty("ApplicationName", env.ApplicationName)
                 .Enrich.WithProperty("EnvironmentName", env.EnvironmentName)
                 .Enrich.WithExceptionDetails()
+                //.Enrich.WithThreadName()
+                //.Enrich.WithThreadId()
+                .Enrich.WithNewRelicLogsInContext()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                 .MinimumLevel.Override("System.Net.Http", LogEventLevel.Warning)
                 .MinimumLevel.Override("Microsoft.Hosting.LifeTime", LogEventLevel.Information)
                 .WriteTo.File(new JsonFormatter(), @$"c:\{serviceName}\logs\{serviceName}-{DateTime.Today:yyyy-MM-dd}.json")
+                .WriteTo.File(formatter: new NewRelicFormatter(),path: @$"c:\{serviceName}\logs\NewRelic 
+                                {serviceName}-{DateTime.Today:yyyy-MM-dd}.json")
                 .WriteTo.Console();
 
                 if (hostBuilderContext.HostingEnvironment.IsDevelopment())

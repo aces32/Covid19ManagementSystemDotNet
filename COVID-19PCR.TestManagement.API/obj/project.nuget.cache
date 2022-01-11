@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6NdGUSwkhexwp0WdSwcm71aLn9bymQ3Eioh7Er5vXePGgcShVYF+rFKIRKzLyoG7H0BCRO1AUxZqdZ4ruDXeyA==",
+  "dgSpecHash": "J5yNDUuGxcdXoSZ2Q5UmmG7Q5T1ouxOxham0wrMUQ2VGWbDio+c+/ccoP4FEuWFt7WCJINUpOXGEU8bb7UeH5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
+  "projectFilePath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -53,6 +53,9 @@
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.agent.api\\8.20.262\\newrelic.agent.api.8.20.262.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.azure.websites.x64\\9.3.0\\newrelic.azure.websites.x64.9.3.0.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.logenrichers.serilog\\1.0.1\\newrelic.logenrichers.serilog.1.0.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
@@ -64,6 +67,7 @@
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.formatting.elasticsearch\\8.5.0-alpha0003\\serilog.formatting.elasticsearch.8.5.0-alpha0003.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.async\\1.5.0\\serilog.sinks.async.1.5.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.elasticsearch\\8.5.0-alpha0003\\serilog.sinks.elasticsearch.8.5.0-alpha0003.nupkg.sha512",
@@ -142,5 +146,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NewRelic.Azure.WebSites.x64 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NewRelic.Azure.WebSites.x64",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

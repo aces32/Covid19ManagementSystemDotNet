@@ -1204,6 +1204,37 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "NewRelic.Agent.Api/8.20.262": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        }
+      },
+      "NewRelic.Azure.WebSites.x64/9.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/NewRelic.Api.Agent.dll": {}
+        },
+        "runtime": {
+          "lib/NewRelic.Api.Agent.dll": {}
+        }
+      },
+      "NewRelic.LogEnrichers.Serilog/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NewRelic.Agent.Api": "8.20.262",
+          "Serilog": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -1515,6 +1546,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {}
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {}
         }
       },
       "Serilog.Sinks.Console/3.1.1": {
@@ -3152,6 +3195,8 @@
           "COVID-19PCR.TestManagement.Infrastructure": "1.0.0",
           "COVID-19PCR.TestManagement.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
+          "NewRelic.Azure.WebSites.x64": "9.3.0",
+          "NewRelic.LogEnrichers.Serilog": "1.0.1",
           "Swashbuckle.AspNetCore": "6.2.2",
           "Swashbuckle.AspNetCore.Annotations": "6.2.2",
           "Swashbuckle.AspNetCore.Newtonsoft": "6.2.2"
@@ -3208,11 +3253,13 @@
         "dependencies": {
           "COVID-19PCR.TestManagement.Application": "1.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "NewRelic.LogEnrichers.Serilog": "1.0.1",
           "Serilog": "2.11.0-dev-01371",
           "Serilog.AspNetCore": "4.1.1-dev-00229",
           "Serilog.Exceptions": "7.1.0",
           "Serilog.Extensions.Logging": "3.0.2-dev-10289",
           "Serilog.Settings.Configuration": "3.3.0",
+          "Serilog.Sinks.Async": "1.5.0",
           "Serilog.Sinks.Elasticsearch": "8.5.0-alpha0003",
           "Serilog.Sinks.File": "5.0.1-dev-00947"
         },
@@ -4912,6 +4959,122 @@
         "netstandard.library.nuspec"
       ]
     },
+    "NewRelic.Agent.Api/8.20.262": {
+      "sha512": "v3YNxGTOlTvqIRF7aK/Vyukk41A/0l+rzgeOAC+N+Xtbd+uAViBX10h7dKS/GHEm35d4KdlGtpxjKBZ1iLF/GA==",
+      "type": "package",
+      "path": "newrelic.agent.api/8.20.262",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD_PARTY_NOTICES.txt",
+        "lib/net45/NewRelic.Api.Agent.dll",
+        "lib/netstandard2.0/NewRelic.Api.Agent.dll",
+        "newrelic.agent.api.8.20.262.nupkg.sha512",
+        "newrelic.agent.api.nuspec",
+        "tools/NewRelicHelper.psm1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NewRelic.Azure.WebSites.x64/9.3.0": {
+      "sha512": "cG9bW42aaz9SlLo53ap5vCcvOabBgo2QO7vC8VTF1ldDY32FweEZZy9WV5AdWnPn1Q8Wutf+Fhvf9+Qr81hxVA==",
+      "type": "package",
+      "path": "newrelic.azure.websites.x64/9.3.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/newrelic/LICENSE.txt",
+        "content/newrelic/NewRelic.Agent.Core.dll",
+        "content/newrelic/NewRelic.Agent.Extensions.dll",
+        "content/newrelic/NewRelic.Profiler.dll",
+        "content/newrelic/THIRD_PARTY_NOTICES.txt",
+        "content/newrelic/agentinfo.json",
+        "content/newrelic/extensions/NewRelic.Core.dll",
+        "content/newrelic/extensions/NewRelic.Parsing.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Storage.CallContext.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Storage.HttpContext.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Storage.OperationContext.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Asp35.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Asp35.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CastleMonoRail2.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CastleMonoRail2.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Couchbase.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.HttpWebRequest.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Msmq.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Mvc3.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.OpenRasta.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Owin.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.RestSharp.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ScriptHandlerFactory.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.ServiceStackRedis.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.Wcf3.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi1.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebApi2.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebOptimization.dll",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.Instrumentation.xml",
+        "content/newrelic/extensions/NewRelic.Providers.Wrapper.WebServices.dll",
+        "content/newrelic/extensions/extension.xsd",
+        "content/newrelic/grpc_csharp_ext.x64.dll",
+        "content/newrelic/grpc_csharp_ext.x86.dll",
+        "content/newrelic/newrelic.config",
+        "content/newrelic/newrelic.xsd",
+        "lib/NewRelic.Api.Agent.dll",
+        "newrelic.azure.websites.x64.9.3.0.nupkg.sha512",
+        "newrelic.azure.websites.x64.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NewRelic.LogEnrichers.Serilog/1.0.1": {
+      "sha512": "UHHuBDASjxTkzzSD0hqeq5Jfpl4PaZA7BDGxBwML4KPtfJPCK0W9RxgC5Dk7dG0HHayU6bjVc3q7jKHRk43Ezw==",
+      "type": "package",
+      "path": "newrelic.logenrichers.serilog/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net45/NewRelic.LogEnrichers.Serilog.dll",
+        "lib/netstandard2.0/NewRelic.LogEnrichers.Serilog.dll",
+        "newrelic.logenrichers.serilog.1.0.1.nupkg.sha512",
+        "newrelic.logenrichers.serilog.nuspec"
+      ]
+    },
     "Newtonsoft.Json/12.0.2": {
       "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
@@ -5344,6 +5507,26 @@
         "lib/netstandard2.0/Serilog.Settings.Configuration.xml",
         "serilog.settings.configuration.3.3.0.nupkg.sha512",
         "serilog.settings.configuration.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "sha512": "csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "type": "package",
+      "path": "serilog.sinks.async/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.Async.dll",
+        "lib/net45/Serilog.Sinks.Async.xml",
+        "lib/net461/Serilog.Sinks.Async.dll",
+        "lib/net461/Serilog.Sinks.Async.xml",
+        "lib/netstandard1.1/Serilog.Sinks.Async.dll",
+        "lib/netstandard1.1/Serilog.Sinks.Async.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Async.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Async.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.async.1.5.0.nupkg.sha512",
+        "serilog.sinks.async.nuspec"
       ]
     },
     "Serilog.Sinks.Console/3.1.1": {
@@ -9863,22 +10046,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Ayo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\COVID-19PCR.TestManagement.IntegrationTests.csproj",
+      "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\COVID-19PCR.TestManagement.IntegrationTests.csproj",
       "projectName": "COVID-19PCR.TestManagement.IntegrationTests",
-      "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\COVID-19PCR.TestManagement.IntegrationTests.csproj",
+      "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\COVID-19PCR.TestManagement.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\obj\\",
+      "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9886,6 +10072,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -9894,11 +10081,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {
-              "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj"
+            "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {
+              "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj"
             },
-            "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj"
+            "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
+              "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj"
             }
           }
         }
@@ -9961,8 +10148,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NewRelic.Azure.WebSites.x64 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NewRelic.Azure.WebSites.x64",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

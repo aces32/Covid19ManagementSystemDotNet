@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "un3b+VU7SNYptrHhfz186tU06hKvA5zKLRuxYL9R5v1+RS923f1yhgi/FRBuWxzwQkIAcq1Y3mq1T7gaP65RmA==",
+  "dgSpecHash": "Vd5MZFQhN05IZt3700QMiRMkKczvNrlw7j9F2o5CHQPGO5n+sxMTe+XwmatXrjBp62GKArgHBa1oGHsNDFNTLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
+  "projectFilePath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.UnitTests\\COVID-19PCR.TestManagement.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -60,6 +60,8 @@
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.windows.compatibility\\5.0.0\\microsoft.windows.compatibility.5.0.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\moq\\4.16.1\\moq.4.16.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.agent.api\\8.20.262\\newrelic.agent.api.8.20.262.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.logenrichers.serilog\\1.0.1\\newrelic.logenrichers.serilog.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -95,6 +97,7 @@
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.formatting.elasticsearch\\8.5.0-alpha0003\\serilog.formatting.elasticsearch.8.5.0-alpha0003.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.async\\1.5.0\\serilog.sinks.async.1.5.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\serilog.sinks.elasticsearch\\8.5.0-alpha0003\\serilog.sinks.elasticsearch.8.5.0-alpha0003.nupkg.sha512",

@@ -39,7 +39,7 @@ namespace COVID_19PCR.TestManagement.Application.Features.Administrators.Queries
                 }
 
                 var allBookings = await _adminBookingAllocationRepository.GetAllRecentAvailableBookings();
-                _cacheApplicationService.SetListCachedItems(cachedAdminBooking, "locationKey");
+                _cacheApplicationService.SetListCachedItems(allBookings, "AdminBookingKey");
                 return _mapper.Map<List<AvailableBookingListVm>>(allBookings);
             }
             catch (Exception ex)

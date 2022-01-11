@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {}
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
+        "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
         "projectName": "COVID-19PCR.TestManagement.API",
-        "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
+        "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
         "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\obj\\publish\\win-x64\\",
+        "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -33,14 +36,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
               },
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj"
               },
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj"
               }
             }
           }
@@ -91,15 +94,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[5.0.11, 5.0.11]"
+              "version": "[5.0.12, 5.0.12]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[5.0.11, 5.0.11]"
+              "version": "[5.0.12, 5.0.12]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[5.0.11, 5.0.11]"
+              "version": "[5.0.12, 5.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -110,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -119,20 +122,22 @@
         }
       }
     },
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj",
+        "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj",
         "projectName": "COVID-19PCR.TestManagement.Application",
-        "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj",
+        "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\obj\\",
+        "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,6 +145,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -148,8 +154,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
               }
             }
           }
@@ -226,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -235,20 +241,22 @@
         }
       }
     },
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
         "projectName": "COVID-19PCR.TestManagement.Domain",
-        "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
+        "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\obj\\",
+        "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,6 +264,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -302,7 +311,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -311,20 +320,22 @@
         }
       }
     },
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj",
         "projectName": "COVID-19PCR.TestManagement.Infrastructure",
-        "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj",
+        "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\COVID-19PCR.TestManagement.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\obj\\",
+        "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -332,6 +343,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -339,7 +351,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -400,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -409,20 +425,22 @@
         }
       }
     },
-    "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
+    "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj",
+        "projectUniqueName": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj",
         "projectName": "COVID-19PCR.TestManagement.Persistence",
-        "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj",
+        "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\COVID-19PCR.TestManagement.Persistence.csproj",
         "packagesPath": "C:\\Users\\Ayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\obj\\",
+        "outputPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -430,6 +448,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "C:\\Users\\Ayo\\source\\repos\\DirectoryFileReader\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/buarisulaimon/_packaging/buarisulaimon/nuget/v3/index.json": {}
@@ -438,11 +457,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Application\\COVID-19PCR.TestManagement.Application.csproj"
               },
-              "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Ayo\\Documents\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
+              "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj": {
+                "projectPath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.Domain\\COVID-19PCR.TestManagement.Domain.csproj"
               }
             }
           }
@@ -487,7 +506,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
