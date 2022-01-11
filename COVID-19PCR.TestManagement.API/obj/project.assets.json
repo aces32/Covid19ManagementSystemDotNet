@@ -678,7 +678,7 @@
           "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
         }
       },
-      "NewRelic.Azure.WebSites.x64/9.3.0": {
+      "NewRelic.Azure.WebSites/9.3.0": {
         "type": "package",
         "compile": {
           "lib/NewRelic.Api.Agent.dll": {}
@@ -3161,10 +3161,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "NewRelic.Azure.WebSites.x64/9.3.0": {
-      "sha512": "cG9bW42aaz9SlLo53ap5vCcvOabBgo2QO7vC8VTF1ldDY32FweEZZy9WV5AdWnPn1Q8Wutf+Fhvf9+Qr81hxVA==",
+    "NewRelic.Azure.WebSites/9.3.0": {
+      "sha512": "virEhMHL0FBVmPUr3svU2tvacN20cdWCTdkyrmusbTQ3xpVALftPkDfdopWVrLWTpjQ9M6qfH66iRbdJ8v95oA==",
       "type": "package",
-      "path": "newrelic.azure.websites.x64/9.3.0",
+      "path": "newrelic.azure.websites/9.3.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3238,8 +3238,8 @@
         "content/newrelic/newrelic.config",
         "content/newrelic/newrelic.xsd",
         "lib/NewRelic.Api.Agent.dll",
-        "newrelic.azure.websites.x64.9.3.0.nupkg.sha512",
-        "newrelic.azure.websites.x64.nuspec",
+        "newrelic.azure.websites.9.3.0.nupkg.sha512",
+        "newrelic.azure.websites.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -7129,7 +7129,7 @@
       "COVID-19PCR.TestManagement.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
-      "NewRelic.Azure.WebSites.x64 >= 9.3.0",
+      "NewRelic.Azure.WebSites >= 9.3.0",
       "NewRelic.LogEnrichers.Serilog >= 1.0.1",
       "Swashbuckle.AspNetCore >= 6.2.2",
       "Swashbuckle.AspNetCore.Annotations >= 6.2.2",
@@ -7205,7 +7205,7 @@
             "target": "Package",
             "version": "[5.0.11, )"
           },
-          "NewRelic.Azure.WebSites.x64": {
+          "NewRelic.Azure.WebSites": {
             "target": "Package",
             "version": "[9.3.0, )"
           },
@@ -7253,8 +7253,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NewRelic.Azure.WebSites.x64 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NewRelic.Azure.WebSites.x64",
+      "message": "Package 'NewRelic.Azure.WebSites 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NewRelic.Azure.WebSites",
       "targetGraphs": [
         "net5.0"
       ]

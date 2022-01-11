@@ -68,7 +68,7 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
-            "NewRelic.Azure.WebSites.x64": {
+            "NewRelic.Azure.WebSites": {
               "target": "Package",
               "version": "[9.3.0, )"
             },

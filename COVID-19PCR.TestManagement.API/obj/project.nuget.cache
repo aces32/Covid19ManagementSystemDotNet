@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J5yNDUuGxcdXoSZ2Q5UmmG7Q5T1ouxOxham0wrMUQ2VGWbDio+c+/ccoP4FEuWFt7WCJINUpOXGEU8bb7UeH5g==",
+  "dgSpecHash": "99sE6GukTWcWjzcOwrrQ9qpAcEXpqB0ebYKsWThmbLDRxJDKWQjwOVsgzlaaSBdKZfFXRTGd0Sq60Bz/0I2v1g==",
   "success": true,
   "projectFilePath": "D:\\Code\\ThynkSoft\\COVID-19PCR.TestManagement\\COVID-19PCR.TestManagement.API\\COVID-19PCR.TestManagement.API.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,7 @@
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.agent.api\\8.20.262\\newrelic.agent.api.8.20.262.nupkg.sha512",
-    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.azure.websites.x64\\9.3.0\\newrelic.azure.websites.x64.9.3.0.nupkg.sha512",
+    "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.azure.websites\\9.3.0\\newrelic.azure.websites.9.3.0.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newrelic.logenrichers.serilog\\1.0.1\\newrelic.logenrichers.serilog.1.0.1.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Ayo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
@@ -151,8 +151,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NewRelic.Azure.WebSites.x64 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NewRelic.Azure.WebSites.x64",
+      "message": "Package 'NewRelic.Azure.WebSites 9.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NewRelic.Azure.WebSites",
       "targetGraphs": [
         "net5.0"
       ]

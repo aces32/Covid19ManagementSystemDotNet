@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Ayo\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.agent.api\8.20.262</PkgNewRelic_Agent_Api>
-    <PkgNewRelic_Azure_WebSites_x64 Condition=" '$(PkgNewRelic_Azure_WebSites_x64)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.azure.websites.x64\9.3.0</PkgNewRelic_Azure_WebSites_x64>
+    <PkgNewRelic_Azure_WebSites Condition=" '$(PkgNewRelic_Azure_WebSites)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.azure.websites\9.3.0</PkgNewRelic_Azure_WebSites>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Ayo\.nuget\packages\microsoft.entityframeworkcore.tools\5.0.11</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>
 </Project>

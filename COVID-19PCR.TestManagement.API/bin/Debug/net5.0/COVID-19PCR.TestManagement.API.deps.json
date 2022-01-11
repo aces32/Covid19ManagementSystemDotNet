@@ -38,7 +38,7 @@
           "COVID-19PCR.TestManagement.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
-          "NewRelic.Azure.WebSites.x64": "9.3.0",
+          "NewRelic.Azure.WebSites": "9.3.0",
           "NewRelic.LogEnrichers.Serilog": "1.0.1",
           "Swashbuckle.AspNetCore": "6.2.2",
           "Swashbuckle.AspNetCore.Annotations": "6.2.2",
@@ -874,7 +874,7 @@
         }
       },
       "NewRelic.Agent.Api/8.20.262": {},
-      "NewRelic.Azure.WebSites.x64/9.3.0": {
+      "NewRelic.Azure.WebSites/9.3.0": {
         "runtime": {
           "lib/NewRelic.Api.Agent.dll": {
             "assemblyVersion": "9.0.0.0",
@@ -3916,12 +3916,12 @@
       "path": "newrelic.agent.api/8.20.262",
       "hashPath": "newrelic.agent.api.8.20.262.nupkg.sha512"
     },
-    "NewRelic.Azure.WebSites.x64/9.3.0": {
+    "NewRelic.Azure.WebSites/9.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cG9bW42aaz9SlLo53ap5vCcvOabBgo2QO7vC8VTF1ldDY32FweEZZy9WV5AdWnPn1Q8Wutf+Fhvf9+Qr81hxVA==",
-      "path": "newrelic.azure.websites.x64/9.3.0",
-      "hashPath": "newrelic.azure.websites.x64.9.3.0.nupkg.sha512"
+      "sha512": "sha512-virEhMHL0FBVmPUr3svU2tvacN20cdWCTdkyrmusbTQ3xpVALftPkDfdopWVrLWTpjQ9M6qfH66iRbdJ8v95oA==",
+      "path": "newrelic.azure.websites/9.3.0",
+      "hashPath": "newrelic.azure.websites.9.3.0.nupkg.sha512"
     },
     "NewRelic.LogEnrichers.Serilog/1.0.1": {
       "type": "package",
