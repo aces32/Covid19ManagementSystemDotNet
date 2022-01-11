@@ -21,7 +21,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NewRelic.Azure.WebSites" Version="9.3.0" />
+    <PackageReference Include="NewRelic.Agent" Version="9.3.0" />
     <PackageReference Include="NewRelic.LogEnrichers.Serilog" Version="1.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.2" />

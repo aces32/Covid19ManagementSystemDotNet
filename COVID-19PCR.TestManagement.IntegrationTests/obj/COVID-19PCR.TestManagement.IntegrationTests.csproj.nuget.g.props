@@ -28,6 +28,6 @@
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\Ayo\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Ayo\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.agent.api\8.20.262</PkgNewRelic_Agent_Api>
-    <PkgNewRelic_Azure_WebSites Condition=" '$(PkgNewRelic_Azure_WebSites)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.azure.websites\9.3.0</PkgNewRelic_Azure_WebSites>
+    <PkgNewRelic_Agent Condition=" '$(PkgNewRelic_Agent)' == '' ">C:\Users\Ayo\.nuget\packages\newrelic.agent\9.3.0</PkgNewRelic_Agent>
   </PropertyGroup>
 </Project>
