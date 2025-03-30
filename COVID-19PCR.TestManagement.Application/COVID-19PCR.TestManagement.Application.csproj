@@ -5,7 +5,7 @@
     <RootNamespace>COVID_19PCR.TestManagement.Application</RootNamespace>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Application\COVID-19PCR.TestManagement.Application.xml</DocumentationFile>
     <NoWarn>1701;1702;CS1591</NoWarn>
   </PropertyGroup>
@@ -13,7 +13,7 @@
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<DocumentationFile>C:\Users\Ayo\Documents\ThynkSoft\COVID-19PCR.TestManagement\COVID-19PCR.TestManagement.Application\COVID-19PCR.TestManagement.Application.xml</DocumentationFile>
 		<NoWarn>1701;1702;CS1591</NoWarn>
-	</PropertyGroup>
+	</PropertyGroup>-->
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
